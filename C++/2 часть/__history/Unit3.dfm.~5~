@@ -1,0 +1,149 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 393
+  ClientWidth = 600
+  Color = clBtnFace
+  DoubleBuffered = True
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 102
+    Top = 8
+    Width = 473
+    Height = 313
+    OnMouseDown = Image1MouseDown
+    OnMouseMove = Image1MouseMove
+    OnMouseUp = Image1MouseUp
+  end
+  object ID: TLabel
+    Left = 188
+    Top = 330
+    Width = 22
+    Height = 13
+    BiDiMode = bdLeftToRight
+    Caption = 'ID ='
+    ParentBiDiMode = False
+  end
+  object angle: TLabel
+    Left = 455
+    Top = 330
+    Width = 5
+    Height = 13
+    Caption = #176
+  end
+  object Color: TRadioGroup
+    Left = 8
+    Top = 119
+    Width = 88
+    Height = 98
+    Caption = 'Color'
+    ItemIndex = 0
+    Items.Strings = (
+      'Black'
+      'Blue'
+      'Red'
+      'Green'
+      'Purple'
+      'White')
+    TabOrder = 0
+    OnClick = ColorClick
+  end
+  object Object: TRadioGroup
+    Left = 8
+    Top = 8
+    Width = 88
+    Height = 89
+    Caption = 'Object'
+    ItemIndex = 0
+    Items.Strings = (
+      'Pen'
+      'Line'
+      'Circle'
+      'Rect'
+      'Choice')
+    TabOrder = 1
+    OnClick = ObjectClick
+  end
+  object Button1: TButton
+    Left = 37
+    Top = 361
+    Width = 75
+    Height = 25
+    Caption = 'Delete'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button3: TButton
+    Left = 199
+    Top = 357
+    Width = 98
+    Height = 25
+    Caption = 'Increase/Decrease'
+    TabOrder = 3
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 385
+    Top = 357
+    Width = 75
+    Height = 25
+    Caption = 'Turn'
+    TabOrder = 4
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 216
+    Top = 330
+    Width = 73
+    Height = 21
+    TabOrder = 5
+  end
+  object BrushColor: TRadioGroup
+    Left = 8
+    Top = 223
+    Width = 88
+    Height = 106
+    Caption = 'Brush Color'
+    ItemIndex = 0
+    Items.Strings = (
+      'White'
+      'Blue'
+      'Red'
+      'Green'
+      'Purple'
+      'Back')
+    TabOrder = 6
+    OnClick = BrushColorClick
+  end
+  object angle1: TEdit
+    Left = 390
+    Top = 330
+    Width = 59
+    Height = 21
+    TabOrder = 7
+  end
+  object Button2: TButton
+    Left = 37
+    Top = 330
+    Width = 75
+    Height = 25
+    Caption = 'Move'
+    TabOrder = 8
+    OnClick = Button2Click
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 336
+    Top = 344
+  end
+end

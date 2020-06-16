@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{66D2AF0A-44DA-4B9A-81BC-D77D93C81708}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project3_10.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\OneDrive\Desktop\макс\Project1.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project3_10">
+        <MSBuild Projects="Project3_10.cbproj"/>
+    </Target>
+    <Target Name="Project3_10:Clean">
+        <MSBuild Projects="Project3_10.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project3_10:Make">
+        <MSBuild Projects="Project3_10.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\..\..\OneDrive\Desktop\макс\Project1.cbproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\..\..\OneDrive\Desktop\макс\Project1.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\..\..\OneDrive\Desktop\макс\Project1.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project3_10;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project3_10:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project3_10:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
