@@ -1,0 +1,7 @@
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\bin\Debug\Lab 2.exe.config
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\bin\Debug\Lab 2.exe
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\bin\Debug\Lab 2.pdb
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\obj\Debug\Lab 2.csprojAssemblyReference.cache
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\obj\Debug\Lab 2.csproj.CoreCompileInputs.cache
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\obj\Debug\Lab 2.exe
+D:\BSUIR\GitHub\Ganisevsky\CS Labs\Lab 2\obj\Debug\Lab 2.pdb

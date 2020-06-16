@@ -7,7 +7,7 @@
     <ProjectGuid>{8F3B7876-BBB5-4FFD-9330-FBFD2BDD62E8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Lab_2</RootNamespace>
-    <AssemblyName>Lab_2</AssemblyName>
+    <AssemblyName>Lab 2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Task 1 %282%29.cs" />
+    <Compile Include="Program_2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
