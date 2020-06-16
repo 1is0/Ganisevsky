@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.588,D:\BSUIR\C++ projects\Project rectangle\Project1.cbproj=D:\BSUIR\C++ projects\Project rectangle\Project Rocket.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.245,D:\BSUIR\CPP\Default project\Project1.cbproj=D:\BSUIR\C++ projects\Project rectangle\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.375,=D:\BSUIR\CPP\Default project\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.902,D:\BSUIR\CPP\Default project\Project1PCH1.h=D:\BSUIR\C++ projects\Project rectangle\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.894,D:\BSUIR\CPP\Default project\Unit1.h=D:\BSUIR\C++ projects\Project rectangle\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.565,D:\BSUIR\C++ projects\Project rectangle\Project1PCH1.h=D:\BSUIR\C++ projects\Project rectangle\Project RocketPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.894,D:\BSUIR\CPP\Default project\Unit1.cpp=D:\BSUIR\C++ projects\Project rectangle\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,=D:\BSUIR\CPP\Default project\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.894,D:\BSUIR\CPP\Default project\Unit1.dfm=D:\BSUIR\C++ projects\Project rectangle\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

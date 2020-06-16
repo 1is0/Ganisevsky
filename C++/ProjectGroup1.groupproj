@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B16FA7A3-A71F-4524-8D36-B9B7DBA90D3C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project Rocket.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="2 часть\Project3_10.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project Rocket">
+        <MSBuild Projects="Project Rocket.cbproj"/>
+    </Target>
+    <Target Name="Project Rocket:Clean">
+        <MSBuild Projects="Project Rocket.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project Rocket:Make">
+        <MSBuild Projects="Project Rocket.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project3_10">
+        <MSBuild Projects="2 часть\Project3_10.cbproj"/>
+    </Target>
+    <Target Name="Project3_10:Clean">
+        <MSBuild Projects="2 часть\Project3_10.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project3_10:Make">
+        <MSBuild Projects="2 часть\Project3_10.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project Rocket;Project3_10"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project Rocket:Clean;Project3_10:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project Rocket:Make;Project3_10:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
